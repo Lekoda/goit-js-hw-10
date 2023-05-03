@@ -10,11 +10,77 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 20px;
 }
 
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
+  margin-top: 16px;
   margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.country-list__flag {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.country-list__name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.country-info__card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.country-info__flag {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.country-info__name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.country-info__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-info__list li {
+  margin: 10px 0;
+}
+
+.country-info__text {
+  font-weight: bold;
 }
