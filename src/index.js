@@ -48,7 +48,7 @@ function onSearch(e) {
     function cardsMarkup(countries) {
         const markup = countries.map(({flags: {svg, alt}, name: {official}}) => {
             return `
-            <li class= "country-list__item>
+            <li class= "country-list__item">
         <img  class="country-list__flag" src="${svg}" alt="${alt}">
         <p class="country-list__name">${official}</p> 
         </li>`    
